@@ -3,10 +3,9 @@
 
 ## Description:
 This repository is used to explain the quantum teleportation qiskit code in a mathematical way. 
-
+Content includes the step-by-step math for the quantum teleportation tutorial on qiskit. 
 
 Original Code: https://qiskit.org/textbook/ch-algorithms/teleportation.html
-Content includes the step-by-step math for the quantum teleportation. 
 
 
 ## Video Link to the explanation
