@@ -128,3 +128,11 @@ By perfoming the measurement on <img src="https://render.githubusercontent.com/r
 - <img src="https://render.githubusercontent.com/render/math?math=\left|10\right\rangle \otimes\left(\alpha\left|0\right\rangle -\beta\left|1\right\rangle \right)">
 
 
+In other words,
+
+- When <img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle \longrightarrow"> Do nothing
+- When <img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle \longrightarrow"> Apply X gate
+- When <img src="https://render.githubusercontent.com/render/math?math=\left|11\right\rangle \longrightarrow"> Apply Z gate
+- When <img src="https://render.githubusercontent.com/render/math?math=\left|10\right\rangle \longrightarrow"> Apply XZ gate
+
+
