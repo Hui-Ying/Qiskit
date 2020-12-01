@@ -64,7 +64,7 @@ Write down |q0>,|q1> and |q2> as a state for the purpose of a better understandi
 
 <img src="https://render.githubusercontent.com/render/math?math==\frac{\alpha}{\sqrt{2}}\left(\left|01\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\alpha}{\sqrt{2}}\left(\left|00\right\rangle \otimes\left|0\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|11\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|10\right\rangle \otimes\left|0\right\rangle \right)">
 
-### Step 4. Represent states |00>, 01, 10, and 11 using the Bell states:
+### Step 4. Represent states |00>, |01>, |10>, and |11> using the Bell states:
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle -\left|\Phi^{-}\right\rangle \right)">
