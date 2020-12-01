@@ -29,7 +29,7 @@ Initialize |q1> and |q2>:
 - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle =\left|0\right\rangle">
 - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\left|0\right\rangle">
 
-Have |q1, q2> become a Bell state by applying a hadamard gate on |q1> and a CNOT gate on |q2>:
+Create a Bell state |q1, q2> by applying a Hadamard gate on |q1> and a CNOT gate on |q2>:
 
 Apply a Hadamard gate 
 <img src="https://render.githubusercontent.com/render/math?math=H">
