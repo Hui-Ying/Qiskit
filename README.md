@@ -74,7 +74,7 @@ Write down <img src="https://render.githubusercontent.com/render/math?math=\left
 
 <img src="https://render.githubusercontent.com/render/math?math==\frac{\alpha}{\sqrt{2}}\left(\left|01\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\alpha}{\sqrt{2}}\left(\left|00\right\rangle \otimes\left|0\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|11\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|10\right\rangle \otimes\left|0\right\rangle \right)">
 
-### Step 4. Represent <img src="https://render.githubusercontent.com/render/math?math=\left|q_{00}\right\rangle"> , <img src="https://render.githubusercontent.com/render/math?math=\left|q_{01}\right\rangle">, <img src="https://render.githubusercontent.com/render/math?math=\left|q_{10}\right\rangle"> , and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{11}\right\rangle">  using the Bell states:
+### Step 4. Represent states q00, q01, q10, and q11 using the Bell states:
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle -\left|\Phi^{-}\right\rangle \right)">
@@ -101,7 +101,7 @@ So now <img src="https://render.githubusercontent.com/render/math?math=\left|q_{
 
 
 
-### Step 4.  Transform the Bell states into <img src="https://render.githubusercontent.com/render/math?math=\left|q_{00}\right\rangle"> , <img src="https://render.githubusercontent.com/render/math?math=\left|q_{01}\right\rangle">, <img src="https://render.githubusercontent.com/render/math?math=\left|q_{10}\right\rangle"> , and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{11}\right\rangle"> by applying <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\right) "> on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle"> :
+### Step 5.  Transform the Bell states into states q00, q01, q10, and q11  by applying CNOT gate and Hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle"> :
 
 
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Phi^{%2B}\right\rangle \right)\right)=H_{0}\left(\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B\left|01\right\rangle \right)\right)=\frac{1}{2}\left[\left(\left|0\right\rangle -\left|1\right\rangle \right)\otimes\left|1\right\rangle %2B\left(\left|0\right\rangle %2B\left|1\right\rangle \right)\otimes\left|1\right\rangle \right]=\left|01\right\rangle">
@@ -120,6 +120,7 @@ Substituting the above equations to
 <img src="https://render.githubusercontent.com/render/math?math==\left[\left|01\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle %2B\frac{\beta}{2}\left|0\right\rangle \right)%2B\left|00\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle +\frac{\beta}{2}\left|1\right\rangle \right)%2B\left|11\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle -\frac{\beta}{2}\left|0\right\rangle \right)%2B\left|10\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle -\frac{\beta}{2}\left|1\right\rangle \right)\right]">
 
 
+### Step 6.Perform the measurement on states q0 and q1:
 By perfoming the measurement on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1}\right\rangle "> , the state will be collapsed to one of the following states:
 
 - <img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle \otimes\left(\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle \right)">
