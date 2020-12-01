@@ -122,6 +122,9 @@ Substituting the above equations to
 
 By perfoming the measurement on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1}\right\rangle "> , the state will be collapsed to one of the following states:
 
-
+- <img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle \otimes\left(\alpha\left|0\right\rangle +\beta\left|1\right\rangle \right)">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle \otimes\left(\alpha\left|1\right\rangle +\beta\left|0\right\rangle \right) ">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|11\right\rangle \otimes\left(\alpha\left|1\right\rangle -\beta\left|0\right\rangle \right)">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|10\right\rangle \otimes\left(\alpha\left|0\right\rangle -\beta\left|1\right\rangle \right)">
 
 
