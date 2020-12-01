@@ -51,12 +51,12 @@ Apply a CNOT gate on
  
 ### Step 3. Represent q0, q1 and q2 as a state 
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{0}\right\rangle"> is a random state.
+|q0>  is a random state.
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0}\right\rangle =\alpha\left|0\right\rangle +\beta\left|1\right\rangle ">
 
-Write down <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0}\right\rangle">, <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle"> and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle"> as a state for the purpose of a better understanding how the teleportation works
+Write down |q0>,|q1> and |q2> as a state for the purpose of a better understanding how the teleportation works
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle =\left|q_{0}\right\rangle \otimes\left|q_{1},q_{2}\right\rangle =\left(\alpha\left|0\right\rangle %2B \beta\left|1\right\rangle \right)\otimes\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B \left|00\right\rangle \right) ">
