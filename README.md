@@ -54,7 +54,7 @@ Apply a CNOT gate on
 :
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|q\right\rangle =CNOT_{12}\left|q_{1}\right\rangle \otimes\left|q_{2}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|00\right\rangle +\left|11\right\rangle \right) ">
+<img src="https://render.githubusercontent.com/render/math?math=\left|q\right\rangle =CNOT_{12}\left|q_{1}\right\rangle \otimes\left|q_{2}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|00\right\rangle %2B\left|11\right\rangle \right) ">
  
  
 ### Step 3. Represent q0, q1 and q2 as a state 
