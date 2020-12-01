@@ -13,17 +13,16 @@ Content includes the step-by-step math for the quantum teleportation.
 - Youtube link to the video for the explanation
 https://www.youtube.com/watch?v=cEhMuMWtThU&t=26s
 
-## Process:
-### Step 1. Bell States 
+### Bell States Definition
 Write down the Bell States for use:
 - <img src="https://render.githubusercontent.com/render/math?math=\left|\Psi^{%2B}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B \left|00\right\rangle \right)">
 - <img src="https://render.githubusercontent.com/render/math?math=\left|\Phi^{%2B}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|10\right\rangle %2B\left|01\right\rangle \right)">
 - <img src="https://render.githubusercontent.com/render/math?math=\left|\Psi^{-}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|11\right\rangle -\left|00\right\rangle \right)">
 - <img src="https://render.githubusercontent.com/render/math?math=\left|\Phi^{-}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|10\right\rangle -\left|01\right\rangle \right)">
 
+## Process:
 
-
-### Step 2. Generate a Bell state
+### Step 1. Generate a Bell state
 
 Initialize |q1> and |q2>:
 
@@ -48,8 +47,7 @@ Apply a CNOT gate on |q2>:
 <img src="https://render.githubusercontent.com/render/math?math=\left|q\right\rangle =CNOT_{12}\left|q_{1}\right\rangle \otimes\left|q_{2}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|00\right\rangle %2B\left|11\right\rangle \right) ">
  
  
- 
-### Step 3. Represent q0, q1 and q2 as a state |q0, q1, q2>
+### Step 2. Represent q0, q1 and q2 as a state |q0, q1, q2>
 
 |q0>  is a random state.
 
@@ -67,8 +65,7 @@ Write down |q0>,|q1> and |q2> as a state for the purpose of a better understandi
 <img src="https://render.githubusercontent.com/render/math?math==\frac{\alpha}{\sqrt{2}}\left(\left|01\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\alpha}{\sqrt{2}}\left(\left|00\right\rangle \otimes\left|0\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|11\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|10\right\rangle \otimes\left|0\right\rangle \right)">
 
 
-
-### Step 4. Represent states |00>, |01>, |10>, and |11> using the Bell states:
+### Step 3. Represent states |00>, |01>, |10>, and |11> using the Bell states:
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle -\left|\Phi^{-}\right\rangle \right)">
@@ -95,7 +92,7 @@ Now |q0, q1, q2>  can be represented as follows,
 
 
 
-### Step 5.  Transform the Bell states into states |00>, |01>, |10>, and |11>  by applying CNOT gate and Hadamard gate on |q0, q1, q2>:
+### Step 4.  Transform the Bell states into states |00>, |01>, |10>, and |11>  by applying CNOT gate and Hadamard gate on |q0, q1, q2>:
 
 
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Phi^{%2B}\right\rangle \right)\right)=H_{0}\left(\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B\left|01\right\rangle \right)\right)=\frac{1}{2}\left[\left(\left|0\right\rangle -\left|1\right\rangle \right)\otimes\left|1\right\rangle %2B\left(\left|0\right\rangle %2B\left|1\right\rangle \right)\otimes\left|1\right\rangle \right]=\left|01\right\rangle">
@@ -115,7 +112,7 @@ Plug the above equations into
 
 
 
-### Step 6.Perform the measurement on states |q0> and |q1>:
+### Step 5.Perform the measurement on states |q0> and |q1>:
 By perfoming the measurement on |q0, q1>, the state will be collapsed to one of the following states:
 
 - <img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle \otimes\left(\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle \right)">
