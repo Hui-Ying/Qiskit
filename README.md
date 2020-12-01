@@ -75,3 +75,17 @@ Write down <img src="https://render.githubusercontent.com/render/math?math=\left
 <img src="https://render.githubusercontent.com/render/math?math==\frac{\alpha}{\sqrt{2}}\left(\left|01\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\alpha}{\sqrt{2}}\left(\left|00\right\rangle \otimes\left|0\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|11\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|10\right\rangle \otimes\left|0\right\rangle \right)">
 
 ### Step 4. Represent <img src="https://render.githubusercontent.com/render/math?math=\left|q_{00}\right\rangle"> , <img src="https://render.githubusercontent.com/render/math?math=\left|q_{01}\right\rangle">, <img src="https://render.githubusercontent.com/render/math?math=\left|q_{10}\right\rangle"> , and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{11}\right\rangle">  using the Bell states:
+
+
+<img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle -\left|\Phi^{-}\right\rangle \right)">
+
+
+<img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Psi^{+}\right\rangle -\left|\Psi^{-}\right\rangle \right)">
+
+
+<img src="https://render.githubusercontent.com/render/math?math=\left|10\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle +\left|\Phi^{-}\right\rangle \right)">
+
+
+<img src="https://render.githubusercontent.com/render/math?math=\left|11\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Psi^{+}\right\rangle +\left|\Psi^{-}\right\rangle \right)">
+
+
