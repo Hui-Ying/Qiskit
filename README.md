@@ -74,7 +74,7 @@ Write down <img src="https://render.githubusercontent.com/render/math?math=\left
 
 <img src="https://render.githubusercontent.com/render/math?math==\frac{\alpha}{\sqrt{2}}\left(\left|01\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\alpha}{\sqrt{2}}\left(\left|00\right\rangle \otimes\left|0\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|11\right\rangle \otimes\left|1\right\rangle \right)%2B\frac{\beta}{\sqrt{2}}\left(\left|10\right\rangle \otimes\left|0\right\rangle \right)">
 
-### Step 4. Represent states q00, q01, q10, and q11 using the Bell states:
+### Step 4. Represent states 00, 01, 10, and 11 using the Bell states:
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|01\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle -\left|\Phi^{-}\right\rangle \right)">
@@ -101,7 +101,7 @@ So now <img src="https://render.githubusercontent.com/render/math?math=\left|q_{
 
 
 
-### Step 5.  Transform the Bell states into states q00, q01, q10, and q11  by applying CNOT gate and Hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle"> :
+### Step 5.  Transform the Bell states into states 00, 01, 10, and 11  by applying CNOT gate and Hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle"> :
 
 
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Phi^{%2B}\right\rangle \right)\right)=H_{0}\left(\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B\left|01\right\rangle \right)\right)=\frac{1}{2}\left[\left(\left|0\right\rangle -\left|1\right\rangle \right)\otimes\left|1\right\rangle %2B\left(\left|0\right\rangle %2B\left|1\right\rangle \right)\otimes\left|1\right\rangle \right]=\left|01\right\rangle">
