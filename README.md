@@ -33,9 +33,7 @@ Have |q1, q2> become a Bell state by applying a hadamard gate on |q1> and a CNOT
 
 Apply a Hadamard gate 
 <img src="https://render.githubusercontent.com/render/math?math=H">
-on 
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle ">
-and a CNOT gate on |q2>:
+on |q1> and a CNOT gate on |q2>:
 
 <img src="https://render.githubusercontent.com/render/math?math=H\left|q_{1}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|1\right\rangle %2B\left|0\right\rangle \right)">
 
