@@ -81,7 +81,7 @@ Write down |q0>,|q1> and |q2> as a state for the purpose of a better understandi
 
 Now |q0, q1, q2>  can be represented as follows,
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1}q_{2}\right\rangle ">
+<img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle ">
 
 <img src="https://render.githubusercontent.com/render/math?math==\left\{ \left[\frac{\alpha}{2}\left(\left|\Phi^{%2B}\right\rangle -\left|\Phi^{-}\right\rangle \right)\otimes\left|1\right\rangle %2B\frac{\alpha}{2}\left(\left|\Psi^{%2B}\right\rangle -\left|\Psi^{-}\right\rangle \right)\otimes\left|0\right\rangle %2B\frac{\beta}{2}\left(\left|\Psi^{%2B}\right\rangle %2B\left|\Psi^{-}\right\rangle \right)\otimes\left|1\right\rangle +\frac{\beta}{2}\left(\left|\Phi^{%2B}\right\rangle %2B\left|\Phi^{-}\right\rangle \otimes\left|0\right\rangle \right)\right]\right\} ">
 
