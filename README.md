@@ -28,7 +28,7 @@ and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\
 - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle =\left|0\right\rangle">
 - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\left|0\right\rangle">
 
-Have - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1},q_{2}\right\rangle">  become a Bell state by applying a hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle"> and a CNOT gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle">
+Have <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1},q_{2}\right\rangle">  become a Bell state by applying a hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle"> and a CNOT gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle">
 
 Apply a Hadamard gate 
 <img src="https://render.githubusercontent.com/render/math?math=H">
