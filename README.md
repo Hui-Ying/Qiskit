@@ -11,6 +11,6 @@ https://www.youtube.com/watch?v=cEhMuMWtThU&t=26s
 
 
 Let's write down the Bell States first:
-- <img src="https://render.githubusercontent.com/render/math?math=\left|\Psi^{+}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B \left|00\right\rangle \right)">
-- <img src="https://render.githubusercontent.com/render/math?math=\left|\Phi^{+}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|10\right\rangle %2B\left|01\right\rangle \right)">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|\Psi^{%2B}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B \left|00\right\rangle \right)">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|\Phi^{%2B}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|10\right\rangle %2B\left|01\right\rangle \right)">
 
