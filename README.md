@@ -83,9 +83,9 @@ Write down <img src="https://render.githubusercontent.com/render/math?math=\left
 <img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Psi^{+}\right\rangle -\left|\Psi^{-}\right\rangle \right)">
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|10\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle +\left|\Phi^{-}\right\rangle \right)">
+<img src="https://render.githubusercontent.com/render/math?math=\left|10\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Phi^{+}\right\rangle %2B\left|\Phi^{-}\right\rangle \right)">
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|11\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Psi^{+}\right\rangle +\left|\Psi^{-}\right\rangle \right)">
+<img src="https://render.githubusercontent.com/render/math?math=\left|11\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Psi^{+}\right\rangle %2B\left|\Psi^{-}\right\rangle \right)">
 
 
