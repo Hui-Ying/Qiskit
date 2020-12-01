@@ -52,7 +52,7 @@ Apply a CNOT gate on |q2>:
 |q0>  is a random state.
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{0}\right\rangle =\alpha\left|0\right\rangle +\beta\left|1\right\rangle ">
+<img src="https://render.githubusercontent.com/render/math?math=\left|q_{0}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
 Write down |q0>,|q1> and |q2> as a state for the purpose of a better understanding how the teleportation works
 
