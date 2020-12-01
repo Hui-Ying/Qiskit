@@ -24,14 +24,12 @@ Write down the Bell States for use:
 
 ### Step 2. Generate a Bell state
 
-Initialize |q1>
-and |q2>:
+Initialize |q1> and |q2>:
 
 - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle =\left|0\right\rangle">
 - <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\left|0\right\rangle">
 
-Have <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1},q_{2}\right\rangle">  become a Bell state by applying a hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle"> and a CNOT gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle">
-:
+Have |q1, q2> become a Bell state by applying a hadamard gate on |q1> and a CNOT gate on |q2>:
 
 Apply a Hadamard gate 
 <img src="https://render.githubusercontent.com/render/math?math=H">
