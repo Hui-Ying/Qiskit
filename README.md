@@ -81,8 +81,7 @@ Write down |q0>,|q1> and |q2> as a state for the purpose of a better understandi
 <img src="https://render.githubusercontent.com/render/math?math=\left|11\right\rangle =\frac{1}{\sqrt{2}}\left(\left|\Psi^{+}\right\rangle %2B\left|\Psi^{-}\right\rangle \right)">
 
 
-So now <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1}q_{2}\right\rangle  ">  can be represented as follows,
-
+Now |q0, q1, q2>  can be represented as follows,
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1}q_{2}\right\rangle ">
 
