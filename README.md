@@ -101,7 +101,7 @@ Similarly,
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Phi^{-}\right\rangle \right)\right)=-\left|11\right\rangle">
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Psi^{-}\right\rangle \right)\right)=-\left|10\right\rangle">
 
-Substituting the above equations to
+Plug the above equations into
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|q_{0},q_{1},q_{2}\right\rangle \right)\right)">,
 
 
