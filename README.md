@@ -101,4 +101,10 @@ So now <img src="https://render.githubusercontent.com/render/math?math=\left|q_{
 
 
 
+### Step 4.  Transform the Bell states into <img src="https://render.githubusercontent.com/render/math?math=\left|q_{00}\right\rangle"> , <img src="https://render.githubusercontent.com/render/math?math=\left|q_{01}\right\rangle">, <img src="https://render.githubusercontent.com/render/math?math=\left|q_{10}\right\rangle"> , and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{11}\right\rangle"> by applying <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\right) "> on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1},q_{2}\right\rangle"> :
+
+
+<img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Phi^{%2B}\right\rangle \right)\right)=H_{0}\left(\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B\left|01\right\rangle \right)\right)=\frac{1}{2}\left[\left(\left|0\right\rangle -\left|1\right\rangle \right)\otimes\left|1\right\rangle %2B\left(\left|0\right\rangle %2B\left|1\right\rangle \right)\otimes\left|1\right\rangle \right]=\left|01\right\rangle">
+
+
 
