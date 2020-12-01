@@ -94,4 +94,11 @@ So now <img src="https://render.githubusercontent.com/render/math?math=\left|q_{
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{0},q_{1}q_{2}\right\rangle ">
 
-<img src="https://render.githubusercontent.com/render/math?math==\left\{ \left[\frac{\alpha}{2}\left(\left|\Phi^{%2B}\right\rangle -\left|\Phi^{-}\right\rangle \right)\otimes\left|1\right\rangle %2B\frac{\alpha}{2}\left(\left|\Psi^{%2B}\right\rangle -\left|\Psi^{-}\right\rangle \right)\otimes\left|0\right\rangle %2B\frac{\beta}{2}\left(\left|\Psi^{%2B}\right\rangle +\left|\Psi^{-}\right\rangle \right)\otimes\left|1\right\rangle +\frac{\beta}{2}\left(\left|\Phi^{%2B}\right\rangle %2B\left|\Phi^{-}\right\rangle \otimes\left|0\right\rangle \right)\right]\right\} ">
+<img src="https://render.githubusercontent.com/render/math?math==\left\{ \left[\frac{\alpha}{2}\left(\left|\Phi^{%2B}\right\rangle -\left|\Phi^{-}\right\rangle \right)\otimes\left|1\right\rangle %2B\frac{\alpha}{2}\left(\left|\Psi^{%2B}\right\rangle -\left|\Psi^{-}\right\rangle \right)\otimes\left|0\right\rangle %2B\frac{\beta}{2}\left(\left|\Psi^{%2B}\right\rangle %2B\left|\Psi^{-}\right\rangle \right)\otimes\left|1\right\rangle +\frac{\beta}{2}\left(\left|\Phi^{%2B}\right\rangle %2B\left|\Phi^{-}\right\rangle \otimes\left|0\right\rangle \right)\right]\right\} ">
+
+
+<img src="https://render.githubusercontent.com/render/math?math==\left[\left|\Phi^{+}\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle +\frac{\beta}{2}\left|0\right\rangle \right)+\left|\Psi^{+}\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle +\frac{\beta}{2}\left|1\right\rangle \right)+\left|\Phi^{-}\right\rangle \otimes\left(\frac{-\alpha}{2}\left|1\right\rangle +\frac{\beta}{2}\left|0\right\rangle \right)+\left|\Psi^{-}\right\rangle \otimes\left(\frac{-\alpha}{2}\left|0\right\rangle +\frac{\beta}{2}\left|1\right\rangle \right)\right]">
+
+
+
+
