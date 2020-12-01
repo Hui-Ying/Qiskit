@@ -35,15 +35,11 @@ Apply a Hadamard gate
 <img src="https://render.githubusercontent.com/render/math?math=H">
 on 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle ">
-and a CNOT gate on
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle ">
-:
+and a CNOT gate on |q2>:
 
 <img src="https://render.githubusercontent.com/render/math?math=H\left|q_{1}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|1\right\rangle %2B\left|0\right\rangle \right)">
 
-Tensor product <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle "> and
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle ">
-:
+Tensor product |q1>  and |q2>:
 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle \otimes\left|q_{2}\right\rangle =\frac{1}{\sqrt{2}}\left[\left(\left|1\right\rangle %2B\left|0\right\rangle \right)\otimes\left|0\right\rangle \right]=\frac{1}{\sqrt{2}}\left(\left|10\right\rangle %2B\left|00\right\rangle \right)">
 
