@@ -90,7 +90,7 @@ Now |q0, q1, q2>  can be represented as follows,
 
 
 
-### Step 5.  Transform the Bell states into states 00, 01, 10, and 11  by applying CNOT gate and Hadamard gate on |q0, q1, q2>:
+### Step 5.  Transform the Bell states into states |00>, |01>, |10>, and |11>  by applying CNOT gate and Hadamard gate on |q0, q1, q2>:
 
 
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|\Phi^{%2B}\right\rangle \right)\right)=H_{0}\left(\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B\left|01\right\rangle \right)\right)=\frac{1}{2}\left[\left(\left|0\right\rangle -\left|1\right\rangle \right)\otimes\left|1\right\rangle %2B\left(\left|0\right\rangle %2B\left|1\right\rangle \right)\otimes\left|1\right\rangle \right]=\left|01\right\rangle">
@@ -109,7 +109,7 @@ Plug the above equations into
 <img src="https://render.githubusercontent.com/render/math?math==\left[\left|01\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle %2B\frac{\beta}{2}\left|0\right\rangle \right)%2B\left|00\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle +\frac{\beta}{2}\left|1\right\rangle \right)%2B\left|11\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle -\frac{\beta}{2}\left|0\right\rangle \right)%2B\left|10\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle -\frac{\beta}{2}\left|1\right\rangle \right)\right]">
 
 
-### Step 6.Perform the measurement on states q0 and q1:
+### Step 6.Perform the measurement on states |q0> and |q1>:
 By perfoming the measurement on |q0, q1>, the state will be collapsed to one of the following states:
 
 - <img src="https://render.githubusercontent.com/render/math?math=\left|00\right\rangle \otimes\left(\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle \right)">
