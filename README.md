@@ -50,6 +50,8 @@ Tensor product <img src="https://render.githubusercontent.com/render/math?math=\
 Apply a CNOT gate on 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle ">
 :
+
+
 <img src="https://render.githubusercontent.com/render/math?math=\left|q\right\rangle =CNOT_{12}\left|q_{1}\right\rangle \otimes\left|q_{2}\right\rangle ">
  
 
