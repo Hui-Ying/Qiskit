@@ -22,16 +22,16 @@ Write down the Bell States for use:
 
 ### Step 2. Generate a Bell state
 
-- Initialize <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle">
+Initialize <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle">
 and <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle">:
 
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle =\left|0\right\rangle">
-<img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\left|0\right\rangle">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle =\left|0\right\rangle">
+- <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\left|0\right\rangle">
 
-- Have <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1},q_{2}\right\rangle">  become a Bell state by applying a hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle"> and a CNOT gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle">
+Have <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1},q_{2}\right\rangle">  become a Bell state by applying a hadamard gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle"> and a CNOT gate on <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle">
 :
 
-- Apply a Hadamard gate 
+Apply a Hadamard gate 
 <img src="https://render.githubusercontent.com/render/math?math=H">
 on 
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle ">
@@ -41,7 +41,7 @@ and a CNOT gate on
 
 <img src="https://render.githubusercontent.com/render/math?math=H\left|q_{1}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|1\right\rangle %2B\left|0\right\rangle \right)">
 
-- Tensor product <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle "> and
+Tensor product <img src="https://render.githubusercontent.com/render/math?math=\left|q_{1}\right\rangle "> and
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle ">
 :
 
