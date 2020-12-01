@@ -114,6 +114,8 @@ Similarly,
 
 Substituting the above equations to
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|q_{0},q_{1},q_{2}\right\rangle \right)\right)">,
+
+
 <img src="https://render.githubusercontent.com/render/math?math=H_{0}\left(CNOT_{01}\left(\left|q_{0},q_{1},q_{2}\right\rangle \right)\right)">
 <img src="https://render.githubusercontent.com/render/math?math==\left[\left|01\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle %2B\frac{\beta}{2}\left|0\right\rangle \right)%2B\left|00\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle +\frac{\beta}{2}\left|1\right\rangle \right)%2B\left|11\right\rangle \otimes\left(\frac{\alpha}{2}\left|1\right\rangle -\frac{\beta}{2}\left|0\right\rangle \right)%2B\left|10\right\rangle \otimes\left(\frac{\alpha}{2}\left|0\right\rangle -\frac{\beta}{2}\left|1\right\rangle \right)\right]">
 
