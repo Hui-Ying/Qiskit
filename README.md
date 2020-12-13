@@ -129,4 +129,5 @@ In other words,
 After applying the gates depending on the state,
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
-# Error Correction
+# Quantum Error Correction
+- The bit flip code
