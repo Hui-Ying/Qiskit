@@ -131,6 +131,9 @@ After applying the gates depending on the state,
 
 # Quantum Error Correction
 - The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)
+- The sign flip code
+- The Shor code
+- Surface code
 
 
 # References
