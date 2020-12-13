@@ -133,5 +133,5 @@ After applying the gates depending on the state,
 - The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)
 
 
-## References
+# References
 [[1]Reversible logic and quantum computers](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)
