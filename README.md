@@ -137,3 +137,4 @@ After applying the gates depending on the state,
 
 # References
 [[1]Reversible logic and quantum computers](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)
+[[2]Wikipedia page of quantum error correction](https://en.wikipedia.org/wiki/Quantum_error_correction)
