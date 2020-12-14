@@ -7,8 +7,8 @@
 
 
 ## Video Link to the explanation
-- Youtube link to the video for the explanation
-https://www.youtube.com/watch?v=cEhMuMWtThU&t=26s
+- Youtube link to the video for the explanation, please click [here]
+(https://www.youtube.com/watch?v=cEhMuMWtThU&t=26s)
 
 ### Bell States Definition
 Write down the Bell States for use:
