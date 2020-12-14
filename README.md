@@ -129,7 +129,7 @@ After applying the gates depending on the state,
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
 # Quantum Error Correction
-- The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)
+- The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)  
 Quantum error correction is needed for quantum computers, and here in this code a quantum error simulation was added to simulate the quantum errors appeared in quantum computers.
 - The sign flip code
 - The Shor code
