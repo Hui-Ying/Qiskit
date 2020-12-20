@@ -129,6 +129,7 @@ After applying the gates depending on the state,
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
 # Quantum Error Correction
+## The bit flip code  
 Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
 The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266) contains two parts(A & B).  
 - Part A: |0> state as input  
@@ -147,9 +148,9 @@ The result shows that the probability of |0> state measured at the output.
 <img src="/images/bit-flip-resultB.png" width="500" height="300"> 
 
 
-- The sign flip code
-- The Shor code
-- Surface code
+## The sign flip code
+## The Shor code
+## Surface code
 
 
 # References
