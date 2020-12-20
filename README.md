@@ -132,7 +132,7 @@ After applying the gates depending on the state,
 The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266) containing two parts.  
 
 - Part A: |0> state as input   
-<img src="/images/bit_flip-circuitA.png" width="600" height="700">
+<img src="/images/bit_flip-circuitA.png" width="600" height="300">
 - Part B: superposition state as input  
 
 Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
