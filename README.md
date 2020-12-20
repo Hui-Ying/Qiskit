@@ -129,9 +129,9 @@ After applying the gates depending on the state,
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
 # Quantum Error Correction
-## The bit flip code  
+## The bit flip code[[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)  
 Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
-The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266) contains two parts(A & B).  
+The bit flip code contains two parts(A & B).  
 - Part A: |0> state as input  
 Circuit Demo:  
 <img src="/images/bit_flip-circuitA.png" width="800" height="200">  
