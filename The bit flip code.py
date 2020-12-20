@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # The bit flip code
-# Quantum error correction is needed for quantum computers, and here in this code a quantum error simulation was added to simulate the quantum errors appeared in quantum computers.
-# 
-# 
-# The bit flip code increases the probability (1-p), which is the probability that a state can be transmitted correctly. By using the three-qubit repetition code, the probability of 1-p can be increased to $(1-p)^3$+ $3p(1-p)^2$.
+# # The Bit-Flip Code: 
+# ## Part A: |0> state as input 
+# ## Part B: superposition state as input
+# Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
 
-# In[1]:
+# # Part A. The bit flip code: |0> state as input
+# Here we define p as the probability the qubit will flip at the output, and (1-p) as the probability that the qubit can be transmitted correctly.
+# 
+# The bit-flip code increases the probability (1-p) by using the 3-qubit repetition code, the probability of 1-p can be increased to $(1-p)^3$+ $3p(1-p)^2$.  
+
+# In[46]:
 
 
 # Import libraries for use
@@ -16,58 +20,61 @@ import numpy as np
 from random import random
 from qiskit.extensions import Initialize
 from qiskit.visualization import plot_histogram, plot_bloch_multivector
+from qiskit_textbook.tools import random_state, array_to_latex
 
 
-# In[2]:
+# In[47]:
 
 
 ## SETUP
-# Protocol uses 4 qubits and 2 classical bit in a register
+# Protocol uses 4 qubits and 1 classical bit in a register
 qr = QuantumRegister(4, name="q")    # Protocol uses 4 qubits
-cr1 = ClassicalRegister(1, name="cr1") # and 2 classical bit
-cr2 = ClassicalRegister(1, name="cr2")
-bit_flip_circuit = QuantumCircuit(qr, cr1, cr2)
+cr = ClassicalRegister(1, name="cr") # and 1 classical bit cr
+bit_flip_circuit = QuantumCircuit(qr, cr)
 
 
-# In[3]:
+# In[48]:
 
 
 def encoding(qc, q0, q1, q2):
     """Creates encoding process using qubits q0 & q1 & q2"""
-    qc.cx(q0,q1) # CNOT with q1 as control and q0 as target
+    qc.cx(q0,q1) # CNOT with q1 as control and q0 as target (Use q1 to control q0.)
     qc.cx(q0,q2) # CNOT with q2 as control and q0 as target
 
 
-# Here we create $\left|\psi\right\rangle$ from the state $\left|0\right\rangle$ and initialize the state to $\left|\psi\right\rangle$= $\sqrt{p}\left|0\right\rangle +\sqrt{1-p}\left|1\right\rangle $ to simulate the probability of the occurrence of error.
+# By default, the initial state in Qiskit is $\left|0\right\rangle$.  
+# In the circuit we create $\left|q3\right\rangle$= $\sqrt{1-p}\left|0\right\rangle +\sqrt{p}\left|1\right\rangle $ to simulate the probability of the occurrence of error.  After measuring the the state, the state has a probabilty of (1-p) to collapase to $\left|0\right\rangle$ state and probability of p to collapse to $\left|1\right\rangle$ state.   
+# We applied the occurence of the error to the three input qubits, and the probability of the input $\left|0\right\rangle$ state transmitted correctly is the same, which is (1-p) in this case. 
+# 
 
-# In[4]:
+# In[49]:
 
 
 # initialization instruction to create  
 # |ψ⟩ from the state |0⟩:  
 p = 0.3 # p stands for the probability of fliping the state of the qubit
-psi = [np.sqrt(p), np.sqrt(1-p)]
+psi = [np.sqrt(1-p), np.sqrt(p)]
 init_gate = Initialize(psi) # initialize the superposition state
 init_gate.label = "init"
 
 
-# In[5]:
+# In[50]:
 
 
 def error_simulation(qc, q0, q1, q2, q3):
     """Creates error simulation using qubits q0 & q1 & q2 & q3"""
-    bit_flip_circuit.append(init_gate, [3]) # create the superposition state for |q3>
-    measure(bit_flip_circuit, 3, 0) # measure the state on |q3>
-    qc.x(q0).c_if(cr1, 0) # apply x gate on q0 if |0> was measured by |q3>
-    bit_flip_circuit.append(init_gate, [3])
-    measure(bit_flip_circuit, 3, 0)
-    qc.x(q1).c_if(cr1, 0) # apply x gate on q1 if |0> was measured by |q3>
-    bit_flip_circuit.append(init_gate, [3])
-    measure(bit_flip_circuit, 3, 0)
-    qc.x(q2).c_if(cr1, 0) # apply x gate on q2 if |0> was measured by |q3>
+    qc.append(init_gate, [3]) # create the superposition state for |q3>
+    measure(qc, 3, 0) # measure the state on |q3>
+    qc.x(q0).c_if(cr, 1) # apply x gate on q0 if |1> was measured by |q3>
+    qc.append(init_gate, [3])
+    measure(qc, 3, 0)
+    qc.x(q1).c_if(cr, 1) # apply x gate on q1 if |1> was measured by |q3>
+    qc.append(init_gate, [3])
+    measure(qc, 3, 0)
+    qc.x(q2).c_if(cr, 1) # apply x gate on q2 if |1> was measured by |q3>
 
 
-# In[6]:
+# In[51]:
 
 
 def measure(qc, q0, cr):
@@ -76,17 +83,17 @@ def measure(qc, q0, cr):
     qc.measure(q0,cr)
 
 
-# In[7]:
+# In[52]:
 
 
 def decoding(qc, q0, q1, q2):
     """Creates decoding process using qubits q0 & q1 & q2"""
     qc.cx(q0,q1) # CNOT with q1 as control and q0 as target
     qc.cx(q0,q2) # CNOT with q2 as control and q0 as target
-    bit_flip_circuit.ccx(q2,q1,q0) # Apply a Toffoli gate |011> <-> |111>
+    qc.ccx(q2,q1,q0) # Apply a Toffoli gate |011> <-> |111>
 
 
-# In[8]:
+# In[53]:
 
 
 # Let's apply the process above to our circuit:
@@ -102,7 +109,7 @@ bit_flip_circuit.barrier()
 decoding(bit_flip_circuit, 0, 1, 2)
 
 # step 4. measurement
-measure(bit_flip_circuit, 0, 1)
+measure(bit_flip_circuit, 0, 0)
 
 # View the circuit:
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -110,9 +117,10 @@ bit_flip_circuit.draw(output='mpl')
 
 
 # # Measurement result
-# The result shows that the sum of the probability = 0.145 + 0.624 = 0.769, which is higher than 1-p = 0.7. And hence shows the probability is higher while applying the bit flip code.
+# The result shows that the probability of $\left|0\right\rangle$ state $\left|1\right\rangle$ state measured at the output.   
+# The result shows that the probability of $\left|0\right\rangle$ correctly transmitted using the bit-flip code is higher than the probability of 0.7, which is the case without error correction. 
 
-# In[9]:
+# In[54]:
 
 
 backend = BasicAer.get_backend('qasm_simulator')
@@ -135,3 +143,89 @@ plot_histogram(counts)
 # | 101 | |110 | 
 # | 110 | |101 | 
 # | 111 | |100 | 
+
+# # Part B. The bit flip code: Input  superpostion state
+# Here we initialize the state as a random superposition state. 
+
+# In[55]:
+
+
+## SETUP
+# Protocol uses 4 qubits and 1 classical bit in a register
+qr = QuantumRegister(4, name="q")    # Protocol uses 4 qubits
+cr = ClassicalRegister(1, name="cr") # and 1 classical bit cr
+bit_flip_random_circuit = QuantumCircuit(qr, cr)
+
+
+# In[56]:
+
+
+# Create random 1-qubit state
+psi_random = random_state(1)
+
+# Display it nicely
+array_to_latex(psi_random, pretext="|\\psi\\rangle =")
+
+# Show it on a Bloch sphere
+plot_bloch_multivector(psi_random)
+
+
+# In[57]:
+
+
+# initialization instruction to create  
+# |ψ⟩ from the state |0⟩:
+#(Initialize is technically not a gate since it contains a reset operation.)
+init_gate_random = Initialize(psi_random)
+init_gate_random.label = "init_random"
+
+
+# In[58]:
+
+
+#Since all quantum gates are reversible, 
+#we can find the inverse of these gates using:
+inverse_init_gate_random = init_gate_random.gates_to_uncompute()
+
+
+# In[59]:
+
+
+# Let's apply the process above to our circuit:
+
+## STEP 0
+# First, let's initialize Alice's q0
+bit_flip_random_circuit.append(init_gate_random, [0])
+bit_flip_random_circuit.barrier()
+
+# step 1. encoding
+encoding(bit_flip_random_circuit, 0, 1, 2)
+
+# step 2. error simulation
+error_simulation(bit_flip_random_circuit, 0, 1, 2, p)
+bit_flip_random_circuit.barrier()
+
+# step 3. decoding
+decoding(bit_flip_random_circuit, 0, 1, 2)
+
+## STEP 4
+# reverse the initialization process
+bit_flip_random_circuit.append(inverse_init_gate_random, [0])
+
+# step 5. measurement
+measure(bit_flip_random_circuit, 0, 0)
+
+# View the circuit:
+get_ipython().run_line_magic('matplotlib', 'inline')
+bit_flip_random_circuit.draw(output='mpl')
+
+
+# # Measurement result
+
+# In[60]:
+
+
+backend = BasicAer.get_backend('qasm_simulator')
+counts = execute(bit_flip_random_circuit, backend, shots=1024).result().get_counts() # No. of measurement shots = 1024
+plot_histogram(counts)
+
