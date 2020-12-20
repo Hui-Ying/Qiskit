@@ -137,6 +137,8 @@ Circuit Demo:
 The result shows that the probability of |0> state measured at the output.
 <img src="/images/bit-flip-resultA.png" width="500" height="300">  
 - Part B: superposition state as input  
+Circuit Demo:  
+<img src="/images/bit_flip-circuitB.png" width="800" height="400">  
 Here we initialize the state as a random superposition state.  
 <img src="/images/bit-flip-randomB.png" width="250" height="250">  
 Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
