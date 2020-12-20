@@ -143,6 +143,8 @@ Circuit Demo:
 <img src="/images/bit_flip-circuitB.png" width="800" height="400">  
 The result shows that the probability of |0> state measured at the output.
 <img src="/images/bit-flip-resultB.png" width="500" height="300"> 
+
+
 - The sign flip code
 - The Shor code
 - Surface code
