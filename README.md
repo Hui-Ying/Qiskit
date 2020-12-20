@@ -129,19 +129,20 @@ After applying the gates depending on the state,
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
 # Quantum Error Correction
+Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
 The bit flip code [[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266) containing two parts.  
-
 - Part A: |0> state as input  
 Circuit Demo:  
 <img src="/images/bit_flip-circuitA.png" width="800" height="200">  
 The result shows that the probability of |0> state measured at the output.
-<img src="/images/bit-flip-resultA.png" width="500" height="300">  
+<img src="/images/bit-flip-resultA.png" width="500" height="300">
 - Part B: superposition state as input  
-Circuit Demo:  
-<img src="/images/bit_flip-circuitB.png" width="800" height="400">  
 Here we initialize the state as a random superposition state.  
 <img src="/images/bit-flip-randomB.png" width="250" height="250">  
-Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results.
+Circuit Demo:  
+<img src="/images/bit_flip-circuitB.png" width="800" height="400">  
+The result shows that the probability of |0> state measured at the output.
+<img src="/images/bit-flip-resultA.png" width="500" height="300"> 
 - The sign flip code
 - The Shor code
 - Surface code
