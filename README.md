@@ -11,7 +11,7 @@
 Circuit Demo:  
 <img src="/images/teleportation_circuit.png" width="800" height="200">  
 Measurement Result: 
-<img src="/images/teleportation_result.png" width="800" height="600">
+<img src="/images/teleportation_result.png" width="600" height="350">
 ### Bell States Definition
 Write down the Bell States for use:
 - <img src="https://render.githubusercontent.com/render/math?math=\left|\Psi^{%2B}\right\rangle =\frac{1}{\sqrt{2}}\left(\left|11\right\rangle %2B \left|00\right\rangle \right)">
