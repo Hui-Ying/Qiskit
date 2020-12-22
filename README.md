@@ -7,7 +7,7 @@
 
 
 ## Video Link to the explanation
-- Youtube link to the video for the explanation, please click [here](https://www.youtube.com/watch?v=cEhMuMWtThU&t=26s)
+- Youtube link to the video for the explanation, please click [here](https://www.youtube.com/watch?v=cEhMuMWtThU&t=26s)  
 Circuit Demo:  
 <img src="/images/teleportation_circuit.png" width="800" height="300">  
 Measurement Result: 
