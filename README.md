@@ -133,7 +133,9 @@ After applying the gates depending on the state,
 
 # Quantum Error Correction
 ## The bit flip code[[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)  
-Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results. YouTube Concept explanation please click [here](https://www.youtube.com/watch?v=eyd8g_hoLgg) for the concept and [here](https://www.youtube.com/watch?v=2m5uTqMna7k&t=4s) for the code explanation.    
+Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results. YouTube Concept explanation please click [here](https://www.youtube.com/watch?v=eyd8g_hoLgg) for the concept and [here](https://www.youtube.com/watch?v=2m5uTqMna7k&t=4s) for the code explanation. 
+
+
 The bit flip code contains two parts(A & B).  
 - Part A: |0> state as input  
 Circuit Demo:  
@@ -155,7 +157,8 @@ The result shows that the probability of |0> state measured at the output.
 
 Circuit Demo:  
 <img src="/images/sign-flip-ckt.png" width="800" height="200">  
-The result shows that the probability of |+> state measured at the output.
+The result shows that the probability of |+> state to remain the same state at the output is 1. If there weren't any encoder then the probability for the sign-flip depends on the p we set for the error simulation.  
+The result shows that the probability of |+> state measured at the output:
 <img src="/images/sign-flip-result.png" width="500" height="300">
 
 
