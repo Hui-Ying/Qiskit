@@ -152,6 +152,13 @@ The result shows that the probability of |0> state measured at the output.
 
 
 ## The sign flip code
+
+Circuit Demo:  
+<img src="/images/sign-flip-ckt.png" width="800" height="200">  
+The result shows that the probability of |+> state measured at the output.
+<img src="/images/sign-flip-result.png" width="500" height="300">
+
+
 ## The Shor code
 ## Surface code
 
