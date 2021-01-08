@@ -154,8 +154,8 @@ The result shows that the probability of |0> state measured at the output.
 
 
 ## The sign flip code
+Circuit Demo:    
 
-Circuit Demo:  
 <img src="/images/sign-flip-ckt.png" width="800" height="200">  
 The result shows that the probability of |+> state to remain the same state at the output is 1. If there weren't any encoder then the probability for the sign-flip depends on the p we set for the error simulation.  
 The result shows that the probability of |+> state measured at the output:
