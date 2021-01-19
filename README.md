@@ -134,7 +134,7 @@ After applying the gates depending on the state,
 <img src="https://render.githubusercontent.com/render/math?math=\left|q_{2}\right\rangle =\alpha\left|0\right\rangle %2B\beta\left|1\right\rangle ">
 
 # Quantum Error Correction
-Quantum error correction is one of the challenges of quantum control with quantum bits. For more details please also read about this [article](https://huiyingsiao-72694.medium.com/challenges-of-quantum-control-with-superconducting-qubits-63486b95659b).
+Quantum error correction is one of the challenges of quantum control with quantum bits. For more details also check out this [article](https://huiyingsiao-72694.medium.com/challenges-of-quantum-control-with-superconducting-qubits-63486b95659b).
 ## The bit flip code[[1]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.3266)  
 Quantum error correction is crucial for quantum computers, here we discuss about the bit-flip code with two different inputs and demonstrate the simulation results. YouTube Concept explanation please click [here](https://www.youtube.com/watch?v=eyd8g_hoLgg) for the concept and [here](https://www.youtube.com/watch?v=2m5uTqMna7k&t=4s) for the code explanation. 
 
