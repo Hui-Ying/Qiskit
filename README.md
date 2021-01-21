@@ -171,8 +171,8 @@ Circuit Demo:
 <img src="/images/simple.png" width="300" height="250">  
 
 Simulation results
-<img src="/images/with_shor.png" width="300" height="400">  
-<img src="/images/without_shor.png" width="300" height="400">  
+<img src="/images/with_shor.png" width="600" height="350">  
+<img src="/images/without_shor.png" width="600" height="350">  
 ## Surface code
 
 
