@@ -170,13 +170,13 @@ The result shows that the probability of |+> state measured at the output:
 1. Shor Code circuit  
 <img src="/images/shor_code.png" width="800" height="400">  
 
-2. Circuit without th error correction (simply with the error simulator) 
-<img src="/images/simple.png" width="250" height="220">  
+2. Circuit without the error correction (simply with the error simulator) 
+<img src="/images/simple.png" width="300" height="220">  
 
 - Simulation results:
 1. Shor Code circuit   
 <img src="/images/with_shor.png" width="500" height="300">   
-2. Circuit without th error correction (simply with the error simulator)  
+2. Circuit without the error correction (simply with the error simulator)  
 <img src="/images/without_shor.png" width="500" height="300">  
 
 
