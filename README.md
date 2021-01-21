@@ -168,7 +168,7 @@ The result shows that the probability of |+> state measured at the output:
 ## The Shor code
 Quantum error correction is crucial for quantum computers, here we discuss about the Shor code and the errors simulated using the noise model and demonstrate the simulation results. The Shor code can be used to correct both the bit-flip and the sign-flip errors using one code.
 In the following code, a custom noise model was built by adding QuantumError to circuit gate. We domonstrate the measurement result from cases with and without the Shor code.
-For more details please check the qiskit [tutorial](https://qiskit.org/documentation/apidoc/aer_noise.html)   
+For more details please check the qiskit [tutorial](https://qiskit.org/documentation/apidoc/aer_noise.html).     
 
 - Circuit Demo:  
 1. Shor Code circuit  
