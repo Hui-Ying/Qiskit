@@ -168,11 +168,11 @@ The result shows that the probability of |+> state measured at the output:
 ## The Shor code
 Circuit Demo:  
 <img src="/images/shor_code.png" width="800" height="400">  
-<img src="/images/simple.png" width="400" height="350">  
+<img src="/images/simple.png" width="300" height="250">  
 
 Simulation results
-<img src="/images/with_shor.png" width="800" height="400">  
-<img src="/images/without_shor.png" width="800" height="400">  
+<img src="/images/with_shor.png" width="300" height="400">  
+<img src="/images/without_shor.png" width="300" height="400">  
 ## Surface code
 
 
